@@ -26,6 +26,10 @@ body {
 
 /* *** header *** */
 
+header {
+    position: relative;
+}
+
 /* *** nav *** */
 
 nav {
@@ -71,6 +75,12 @@ nav a {
 
 /* *** jumbo *** */
 
+.jumbo {
+    width: 100%;
+    height: 1500px;
+    background-color: rgb(180, 208, 231);
+}
+
 /* *** / header *** */
 
 /* *** main *** */
@@ -79,14 +89,5 @@ nav a {
 
 /* *** debug *** */
 
-header {
-    position: relative;
-}
-
-.jumbo {
-    width: 100%;
-    height: 1500px;
-    background-color: rgb(180, 208, 231);
-}
 
 
