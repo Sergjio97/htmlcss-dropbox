@@ -67,6 +67,11 @@ nav a {
 
 /* *** debug *** */
 
+.debug .jumbo {
+    width: 100%;
+    height: 500px;
+    background-color: red;
+}
 
 
 
