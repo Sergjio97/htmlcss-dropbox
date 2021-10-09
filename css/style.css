@@ -82,7 +82,7 @@ nav a {
 
 .jumbo {
     width: 100%;
-    height: 600px;
+    height: 640px;
     background-color: rgb(180, 208, 231);
 }
 
@@ -93,7 +93,7 @@ nav a {
 
 .jumbo h1 {
     font-size: 65px;
-    padding-top: 70px;
+    padding-top: 120px;
     padding-bottom: 40px;
 }
 
@@ -143,11 +143,11 @@ nav a {
 
 /* *** main *** */
 
+/* *** inizio sezione piano-dropbox-top *** */
+
 .piano-dropbox {
     width: 60%;
     margin: auto;
-    height: 800px;
-    background-color: blue;
     font-weight: bold;
     font-size: 13px;
 }
@@ -165,17 +165,15 @@ nav a {
 
 .piano-dropbox .col-sn {
     width: 30%;
-    height: 350px;
-    border: 1px solid lightgrey;
-    background-color: red;
+    border: 1px solid rgb(248, 248, 249);
+    background-color: violet;
     font-size: 11px;
 }
 
-.box-piano {
+.piano-dropbox .col-centrale {
     width: 30%;
     margin: 0px 40px;
-    height: 350px;
-    border: 1px solid lightgrey;
+    border: 1px solid rgb(248, 248, 249);
     background-color: red;
     font-size: 11px;
     
@@ -183,8 +181,7 @@ nav a {
 
 .piano-dropbox .col-dx {
     width: 30%;
-    height: 350px;
-    border: 1px solid lightgrey;
+    border: 1px solid rgb(248, 248, 249);
     background-color: red;
     font-size: 11px;
 }
@@ -198,7 +195,7 @@ nav a {
     width: 100%;
     padding: 5px 10px;
     text-align: center;
-    border-bottom: 1px solid lightgrey;
+    border-bottom: 1px solid rgb(248, 248, 249);
 }
 
 .piano-dropbox h3 {
@@ -208,10 +205,65 @@ nav a {
 }
 
 .durata {
-    color: lightgrey;
+    color: rgb(248, 248, 249);
     margin-top: 5px;
     margin-bottom: 30px;
 }
+
+.funzioni {
+    margin-bottom: 30px;
+}
+
+.prova-gratuita a{
+    display: block;
+    padding: 5px 10px;
+    background-color: rgb(60, 134, 255);
+    text-decoration: none;
+    text-align: center;
+    font-size: 11px;
+    font-weight: bold;
+    color: white;
+}
+
+.acquista-ora {
+    color: rgb(118, 170, 255);
+}
+
+.linea-divisiva {
+    width: 20%;
+    margin-top: 15px;
+    margin-bottom: 30px;
+    border-top: 1px solid rgb(248, 248, 249);
+}
+
+.piano-dropbox h4 {
+    font-size: 13px;
+}
+
+.piano-dropbox .assistenza {
+    margin-bottom: 120px;
+}
+
+.piano-dropbox .col-sn .assistenza {
+    margin-bottom: 150px;
+}
+
+/* *** / sezione piano-dropbox-top *** */
+
+/* *** inizio sezione piano-dropbox-bottom *** */
+
+.piano-bottom {
+    width: 60%;
+    margin: auto;
+    margin-top: 50px;
+    height: 400px;
+    border: 1px solid rgb(248, 248, 249);
+    background-color: goldenrod;
+    font-weight: bold;
+    font-size: 13px;
+}
+
+/* *** / sezione piano-dropbox-bottom *** */
 
 /* *** footer *** */
 
@@ -219,13 +271,9 @@ nav a {
 
 .debug main {
     width: 100%;
-    height: 1000px;
-    background-color: yellow;
+    height: 3000px;
+    background-color: green;
 }
 
-.debug footer {
-    width: 100%;
-    height: 100px;
-    background-color: violet;
-}
+
 
