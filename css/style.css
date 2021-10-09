@@ -24,9 +24,15 @@ body {
     float: right;
 }
 
+.mb {
+    margin-bottom: 15px;
+}
+
 /* *** header *** */
 
 header {
+    width: 100%;
+    position: fixed;
     
 }
 
@@ -80,7 +86,7 @@ nav a {
     background-color: rgb(180, 208, 231);
 }
 
-.row {
+.jumbo-box {
     width: 80%;
     margin: auto;
 }
@@ -97,6 +103,7 @@ nav a {
 
 .jumbo .col-sn {
     width: 35%;
+    margin-right: 5%;
 }
 
 .jumbo .col-dx {
@@ -127,9 +134,84 @@ nav a {
     font-weight: bold;
 }
 
+.jumbo .download {
+    padding-top: 25px;
+    font-size: 30px;
+}
+
 /* *** / header *** */
 
 /* *** main *** */
+
+.piano-dropbox {
+    width: 60%;
+    margin: auto;
+    height: 800px;
+    background-color: blue;
+    font-weight: bold;
+    font-size: 13px;
+}
+
+.piano-dropbox h2 {
+    padding-top: 150px;
+    padding-bottom: 45px;
+    font-size: 30px;
+}
+
+.input-fatturazione {
+    display: block;
+    margin-bottom: 25px;
+}
+
+.piano-dropbox .col-sn {
+    width: 30%;
+    height: 350px;
+    border: 1px solid lightgrey;
+    background-color: red;
+    font-size: 11px;
+}
+
+.box-piano {
+    width: 30%;
+    margin: 0px 40px;
+    height: 350px;
+    border: 1px solid lightgrey;
+    background-color: red;
+    font-size: 11px;
+    
+}
+
+.piano-dropbox .col-dx {
+    width: 30%;
+    height: 350px;
+    border: 1px solid lightgrey;
+    background-color: red;
+    font-size: 11px;
+}
+
+.piano-content {
+    width: 90%;
+    margin: auto;
+}
+
+.utenza {
+    width: 100%;
+    padding: 5px 10px;
+    text-align: center;
+    border-bottom: 1px solid lightgrey;
+}
+
+.piano-dropbox h3 {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+
+.durata {
+    color: lightgrey;
+    margin-top: 5px;
+    margin-bottom: 30px;
+}
 
 /* *** footer *** */
 
