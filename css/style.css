@@ -339,12 +339,10 @@ nav a {
 
 .operazioni {
     width: 60%;
-    height: 600px;
     padding-top: 80px;
     margin: auto;
     font-size: 13px;
     font-weight: bold;
-    background-color: lightpink;
 }
 
 .operazioni h2 {
@@ -354,37 +352,23 @@ nav a {
 
 .operazioni-top {
     width: 100%;
-    margin-bottom: 20px;
-    height: 600px;
-    background-color: blue;
 }
 
 .operazioni .col-sn {
     width: 30%;
-    height: 480px;
-    background-color: red;
-    border: 1px solid black;
 }
 
 .operazioni .col-centrale {
     width: 30%;
     margin: 0px 40px;
-    height: 480px;
-    background-color: red;
-    border: 1px solid black;
 }
 
 .operazioni .col-dx {
     width: 30%;
-    height: 480px;
-    background-color: red;
-    border: 1px solid black;
 }
 
 .operazioni-bottom {
     width: 100%;
-    height: 600px;
-    background-color: goldenrod;
 }
 
 .operazioni img {
@@ -400,6 +384,10 @@ nav a {
     text-decoration: underline;
 }
 
+.operazioni-top p {
+    padding-bottom: 80px;
+}
+
 /* *** / sezione operazioni *** */
 
 /* *** footer *** */
@@ -409,7 +397,7 @@ nav a {
 .debug main {
     width: 100%;
     height: 3000px;
-    background-color: red;
+    background-color: re;
 }
 
 
