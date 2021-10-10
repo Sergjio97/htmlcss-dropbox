@@ -355,13 +355,13 @@ nav a {
 .operazioni-top {
     width: 100%;
     margin-bottom: 20px;
-    height: 300px;
+    height: 600px;
     background-color: blue;
 }
 
 .operazioni .col-sn {
     width: 30%;
-    height: 230px;
+    height: 480px;
     background-color: red;
     border: 1px solid black;
 }
@@ -369,22 +369,35 @@ nav a {
 .operazioni .col-centrale {
     width: 30%;
     margin: 0px 40px;
-    height: 230px;
+    height: 480px;
     background-color: red;
     border: 1px solid black;
 }
 
 .operazioni .col-dx {
     width: 30%;
-    height: 230px;
+    height: 480px;
     background-color: red;
     border: 1px solid black;
 }
 
 .operazioni-bottom {
     width: 100%;
-    height: 300px;
+    height: 600px;
     background-color: goldenrod;
+}
+
+.operazioni img {
+    width: 100%;
+    object-fit: contain;
+}
+
+.operazioni h3 {
+    font-size: 20px;
+}
+
+.operazioni span {
+    text-decoration: underline;
 }
 
 /* *** / sezione operazioni *** */
