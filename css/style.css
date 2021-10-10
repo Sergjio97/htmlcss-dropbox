@@ -395,14 +395,16 @@ nav a {
 .clienti {
     width: 100%;
     margin-top: 130px;
+    font-size: 13px;
+    font-weight: bold;
     height: 1000px;
     background-color: pink;
 }
 
 .clienti-top {
-    width: 60%;
-    margin: auto;
-    height: 200px;
+    width: 30%;
+    margin-left: 265px;
+    margin-bottom: 30px;
     background-color: gray;
 }
 
@@ -416,6 +418,19 @@ nav a {
     width: 100%;
     height: 350px;
     background-color: rgb(180, 208, 231);
+}
+
+/* *** inizio sezione clienti top *** */
+
+/* *** / sezione clienti top *** */
+
+.clienti h2 {
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+
+.clienti-top a {
+    color: rgb(118, 170, 255);
 }
 
 /* *** / sezione clienti *** */
