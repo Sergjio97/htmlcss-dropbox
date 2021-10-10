@@ -253,7 +253,7 @@ nav a {
     width: 60%;
     margin: auto;
     margin-top: 50px;
-    margin-bottom: 120px;
+    padding-bottom: 80px;
     font-weight: bold;
     font-size: 13px;
 }
@@ -336,6 +336,18 @@ nav a {
 
 
 /* *** inizio sezione operazioni *** */
+
+.operazioni {
+    width: 60%;
+    padding-top: 80px;
+    margin: auto;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.operazioni h2 {
+    font-size: 30px;
+}
 
 /* *** / sezione operazioni *** */
 
