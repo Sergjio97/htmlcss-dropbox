@@ -422,8 +422,6 @@ nav a {
 
 /* *** inizio sezione clienti top *** */
 
-/* *** / sezione clienti top *** */
-
 .clienti h2 {
     font-size: 30px;
     margin-bottom: 30px;
@@ -432,6 +430,37 @@ nav a {
 .clienti-top a {
     color: rgb(118, 170, 255);
 }
+
+/* *** / sezione clienti top *** */
+
+/* *** inizio sezione clienti centrale *** */
+
+.clienti-centrale .col-sn {
+    width: 30%;
+    height: 400px;
+    background-color: green;
+}
+
+.clienti-centrale .col-centrale {
+    width: 40%;
+    height: 400px;
+    background-color: yellow;
+}
+
+.clienti-centrale .col-dx {
+    width: 30%;
+    height: 400px;
+    background-color: green;
+}
+
+.clienti-centrale .img {
+    width: 50%;
+    height: 200px;
+    background-color: red;
+    border: 1px solid black;
+}
+
+/* *** / sezione clienti centrale *** */
 
 /* *** / sezione clienti *** */
 
