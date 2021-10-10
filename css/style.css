@@ -253,6 +253,7 @@ nav a {
     width: 60%;
     margin: auto;
     margin-top: 50px;
+    margin-bottom: 150px;
     font-weight: bold;
     font-size: 13px;
 }
@@ -294,6 +295,42 @@ nav a {
 /* *** / sezione piano-dropbox-bottom *** */
 
 /* *** inizio sezione partner *** */
+
+.partner {
+    width: 60%;
+    margin: auto;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.partner .col-sn {
+    width: 55%;  
+}
+
+.partner .col-sn img {
+    width: 100%;
+}
+
+.partner .col-dx {
+    width: 40%;
+
+}
+
+.partner .col-dx h3 {
+    margin-top: 30px;
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+
+.trova-partner {
+    padding: 5px 20px;
+    border: 1px solid black;
+    text-decoration: none;
+    text-align: center;
+    font-size: 11px;
+    font-weight: bold;
+    color: black;
+}
 
 /* *** / sezione partner *** */
 
