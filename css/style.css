@@ -339,14 +339,52 @@ nav a {
 
 .operazioni {
     width: 60%;
+    height: 600px;
     padding-top: 80px;
     margin: auto;
     font-size: 13px;
     font-weight: bold;
+    background-color: lightpink;
 }
 
 .operazioni h2 {
     font-size: 30px;
+    margin-bottom: 30px;
+}
+
+.operazioni-top {
+    width: 100%;
+    margin-bottom: 20px;
+    height: 300px;
+    background-color: blue;
+}
+
+.operazioni .col-sn {
+    width: 30%;
+    height: 230px;
+    background-color: red;
+    border: 1px solid black;
+}
+
+.operazioni .col-centrale {
+    width: 30%;
+    margin: 0px 40px;
+    height: 230px;
+    background-color: red;
+    border: 1px solid black;
+}
+
+.operazioni .col-dx {
+    width: 30%;
+    height: 230px;
+    background-color: red;
+    border: 1px solid black;
+}
+
+.operazioni-bottom {
+    width: 100%;
+    height: 300px;
+    background-color: goldenrod;
 }
 
 /* *** / sezione operazioni *** */
@@ -358,7 +396,7 @@ nav a {
 .debug main {
     width: 100%;
     height: 3000px;
-    background-color: re;
+    background-color: red;
 }
 
 
