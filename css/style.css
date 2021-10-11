@@ -396,29 +396,24 @@ nav a {
 
 .clienti {
     width: 100%;
-    margin-top: 130px;
+    margin-top: 180px;
     font-size: 13px;
     font-weight: bold;
-    height: 1000px;
-    background-color: pink;
 }
 
 .clienti-top {
     width: 30%;
     margin-left: 265px;
     margin-bottom: 30px;
-    background-color: gray;
 }
 
 .clienti-centrale {
     width: 100%;
     height: 400px;
-    background-color: chocolate;
 }
 
 .clienti-bottom {
     width: 100%;
-    height: 300px;
     background-color: rgb(180, 208, 231);
 }
 
@@ -443,7 +438,7 @@ nav a {
 
 .clienti-centrale .col-centrale {
     width: 40%;
-    height: 400px;
+    padding-bottom: 111px;
     background-color: rgb(245, 245, 245);
 }
 
@@ -533,7 +528,7 @@ nav a {
     width: 60%;
     margin: auto;
     padding-top: 100px;
-    padding-bottom: 100px;
+    padding-bottom: 200px;
 }
 
 .clienti-bottom .content h2 {
@@ -567,6 +562,16 @@ nav a {
 
 /* *** / sezione clienti *** */
 
+/* *** inizio sezione faq *** */
+
+.faq {
+    width: 60%;
+    margin: auto;
+    margin-top: 130px;
+}
+
+/* *** / sezione faq *** */
+
 /* *** footer *** */
 
 /* *** debug *** */
@@ -574,7 +579,12 @@ nav a {
 .debug main {
     width: 100%;
     height: 5000px;
-    background-color: red;
+    background-color: ;
+}
+
+.debug .faq {
+    height: 600px;
+    background-color: coral;
 }
 
 
