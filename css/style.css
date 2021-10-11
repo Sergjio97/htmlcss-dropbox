@@ -568,7 +568,46 @@ nav a {
     width: 60%;
     margin: auto;
     margin-top: 130px;
+    font-size: 13px;
+    font-weight: bold;
 }
+
+.faq h3 {
+    margin-bottom: 30px;
+    font-size: 20px;
+}
+
+.faq li {
+    list-style-type: none;
+}
+
+.faq li:nth-child(1), .faq li:nth-child(4) {
+    line-height: 60px;
+    border-top: 1px solid lightgrey;
+    border-bottom: 1px solid lightgrey;
+}
+
+.faq li:nth-child(2) {
+    line-height: 60px;
+    border-bottom: 1px solid lightgrey;
+}
+
+.faq li:nth-child(3) {
+    line-height: 60px;
+}
+
+.faq .faq-content p {
+    display: inline;
+    margin-right: 260px;
+}
+
+/* .faq .faq-content .col-sn {
+    width: 70%;
+}
+
+.faq .faq-content .col-dx {
+    width: 20%;
+} */
 
 /* *** / sezione faq *** */
 
@@ -580,11 +619,6 @@ nav a {
     width: 100%;
     height: 5000px;
     background-color: ;
-}
-
-.debug .faq {
-    height: 600px;
-    background-color: coral;
 }
 
 
